@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: p0ncGY/xW2mrbgoYqL4qhr93FLfvoZi0+USINiRWQtOcpoy9Ecm+FdQNpe0BmcS+d3jF+IlJ13oP+9AOLLkBWvTkrKTNozfbLJD+4pTtIFxgcMuXYg8eGaiRmGr74GdRn/OL86VmAHsFovC1MxzKQ7GoNkjuORX7jRDKI86m87lzvfY02DWqOCrhrt2IVs0qBNCiumern8Px8aR3nbba81wFmQbdPCAkoLVXdaxscjHCOANti9TxgZ4UfTcJMug/Sk28MmIXTAU79LIr9cLcsBbgJqqnzD+U6m/ezfWvdtfU+WEup5w6O888DmHAp/7YxOlszQTw4cCe9TiqM5M/F+bzdcTXDF4FFIHL57EELmOjJ7bSfaY3+GhNTpxzEf/K+jOdpWtoII/9b1uZWOvTps+Jc3ZEEsyfVz9g9RMIonVH6BZ+BE2Z6RDxMbsYIBpBMgiS8o0j3toVWT5eci1L9ZVhIhtqC5pONu3lcCVFukBlnW3g0NEec07U003kIBhtE6P9O5yeFGAJYFPwAe8+1OTXo+UALfkXHsVzZWZdxuQ3n+Dl7rY79JkVMv79JZKwp2IA6MX8CpnytmK01lnWqYGBavDDzSn3RKapYlb/UwPe1jV0hWaCDexcT3HjfAJKkkFJU1/rNRg/cum86lT2Ep65PR3TCIqc/2sZpM4WKSM=
+  app: polar-fjord-18618
+  on:
+    repo: jessicaerazo/Blog-Post-integration-Tests
